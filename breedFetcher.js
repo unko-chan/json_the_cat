@@ -1,6 +1,6 @@
 const request = require('request');
 const input = process.argv.slice(2);
-const breed = `https://api.thecatapiaa.com/v1/breeds/search?q=${input}`;
+const breed = `https://api.thecatapi.com/v1/breeds/search?q=${input}`;
 
 request(breed, function (error, response, body) {
   if (error) {

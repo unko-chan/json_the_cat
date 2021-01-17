@@ -7,7 +7,9 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "eslint": "^7.18.0"
+    "chai": "^4.2.0",
+    "eslint": "^7.18.0",
+    "mocha": "^8.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
